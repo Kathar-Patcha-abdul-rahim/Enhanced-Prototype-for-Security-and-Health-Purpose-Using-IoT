@@ -1,6 +1,7 @@
 # IoT-Based Wearable Health and Security Device
 
 ## Table of Contents
+- [Notice]{#Important-Notice}
 - [Overview](#overview)
 - [Features](#features)
 - [Architecture](#architecture)
@@ -10,6 +11,26 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+
+
+
+## Important Notice
+
+This project is based on IoT development, utilizing hardware like the **ESP8266**. The project involves various libraries with deep directory structures that are critical for its operation. However, due to **operating system limitations**, particularly on Windows, where the maximum file path length is 260 characters, **I have not uploaded the project to GitHub**. All files and project resources are stored locally on my system.
+
+### Why This Happens:
+- **Long File Names**: IoT packages like the **ESP8266** come with long directory structures, and certain files have long names to support various configurations and examples. 
+- **Windows File System Limitations**: Windows imposes a file path length limit of 260 characters, starting from the drive (e.g., `C:\`). Some files in the libraries exceed this length, causing errors like `Filename too long`, which prevents the project from being uploaded to GitHub.
+
+### Current Status:
+- **All Files are Stored Locally**: None of the project files, including code, libraries, or dependencies, have been uploaded to this GitHub repository due to these constraints. The project exists only in my local development environment.
+
+### Solution for Users:
+- To work with this project, you will need to manually install the necessary IoT libraries (e.g., **ESP8266**) on your local machine.
+- Ensure that you place the project in a **short directory path** on your system to avoid file path length issues (e.g., `C:\Projects\IoTDevice`).
+
+If you have any questions or need assistance with setting up the project locally, feel free to contact me.
+
 
 ## Overview
 This project focuses on developing a wearable IoT-based device designed for health monitoring and security purposes. The system uses various sensors to collect physiological data such as temperature, blood pressure, and pulse rate. In case of an emergency or abnormal readings, it sends real-time alerts to predefined contacts using GSM and GPS modules. This wearable device provides assistance during health crises or security threats, ensuring timely intervention.
