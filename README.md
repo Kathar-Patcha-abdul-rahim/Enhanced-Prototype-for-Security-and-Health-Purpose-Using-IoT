@@ -9,7 +9,6 @@
 - [Software Requirements](#software-requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 
@@ -80,23 +79,6 @@ The device operates using the following components:
 2. Power on the device.
 3. The system will begin monitoring vital signs. If abnormal readings are detected, alerts will be automatically sent to predefined contacts.
 4. You can view the status of the sensors via the Arduino Serial Monitor.
-
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature-branch
-    ```
-3. Make your changes and commit them:
-    ```bash
-    git commit -m "Add new feature"
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature-branch
-    ```
-5. Open a pull request.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
