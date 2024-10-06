@@ -1,7 +1,7 @@
 # IoT-Based Wearable Health and Security Device
 
 ## Table of Contents
-- [Notice]{#Important-Notice}
+- [Notice](#Important-Notice)
 - [Overview](#overview)
 - [Features](#features)
 - [Architecture](#architecture)
